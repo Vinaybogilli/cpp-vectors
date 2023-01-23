@@ -1,0 +1,14 @@
+vector<int>name  //declaration
+a.push_back(element)  //pushing elements back
+a.emplace_back(element) 
+//running loop
+for(auto it:a){
+cout<<it;
+}
+a.pop_back()//removing last element
+a.insert(a.begin()+index,element) // for insertion
+sort(a.begin(),a.end()) // for sorting
+sort(a.rbegin(),a.rend()) //for reverse sorting
+a.rbegin()==a.crbegin()
+a.size() // vector size
+
